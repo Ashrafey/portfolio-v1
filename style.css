@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    box-sizing: border-box;
+
+}
+/* section understand  */
+/* #secc{
+    border: solid;
+} */
+
+ /* parent container  */
+#container{
+    /* border: solid; */
+    /* border-color: blue; */
+    width: 100%;
+    height: 100vh;
+position: relative;
+}
+/* nav tag  */
+nav{
+    /* border: solid; */
+    /* border-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+/* logo  */
+#logoimg{
+    width: 100px;
+}
+
+/* lis items */
+.list-items{
+    /* border: solid; */
+    /* border-color: green; */
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+/* a tag class  */
+.list{
+    color: black;
+    font-weight: 600;
+    /* to remove underline from link  */
+    text-decoration: none;
+}
+/* pseudo class  */
+.list:hover{
+    color: red;
+    text-decoration: underline;
+    
+}
+/* home content  */
+.home-content{
+    /* border: solid; */
+    border-color: black;
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lname{
+    color: brown;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+ font-family: "Bungee Tint", system-ui;;
+}
+#user-details{
+    line-height: 1.2;
+}
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+/* home image  */
+.home-img{
+    /* border: solid; */
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.group1{
+    position: absolute;
+    height: 90%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.home-img:hover #messi{
+    bottom: 90px;
+}
+
+.home-img:hover #ronaldo{
+    left: 40%;
+}
+
+/* section  */
+#about{
+    margin: 25% 8% 0px 8%;
+    /* border: solid; */
+    /* border-color: brown; */
+}
+
+/* div sectionhead */
+.sectionhead{
+    text-align: center;
+    /* border: solid; */
+    /* border-color: blue; */
+}
+/* mainhead  text about me*/
+    #mainhead{
+        font-size: 30px;
+    }
+    /* subhead indroduction */
+    #subhead{
+font-size: 20px;
+color: green;
+    }
+    /* aboutbody  */
+    .Aboutbody{
+        /* border: solid; */
+        /* border-color: blueviolet; */
+        /* display: flex; */
+        display: grid;
+        /* 2columns and 1fr or px can be used */
+        /* grid-template-columns: auto auto; or grid-template-columns: 200px 150px; */
+        grid-template-columns: repeat(2,1fr); 
+        gap: 10px;
+        align-items: center;
+        
+    }
+/* aboutcontent */
+.aboutcontent{
+    font-size: 30px;
+    text-align: justify;
+  }
+.informations{
+    margin-top: 1.3rem;  /* px also same */
+}
+/* image1 worldcup*/
+.image1{
+margin-left: 70px;
+    width: 60%;
+}
+/* /* icons div */
+.infobox>span{
+    margin-left: 1rem;
+/* border: solid; */
+ /* border-color: black; */
+
+}
+/* icons images */
+.iconimages{
+ width: 50px;
+}
+ /* SKILLS STADIUM  */
+#skill{
+    margin: 8% 8% 0px 8%;
+}
+
+.skillcontent{
+    /* border: solid; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.bars{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    padding: 1rem 0px;
+}
+
+.mainhead ,.barpercentage{
+font-weight: 500px;
+font-size: 1.3rem;
+}
+
+.basebar{
+    /* border: solid; */
+    /* border-color: yellow; */
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.htmlbar{
+    /* border: solid; */
+    /* border-color: red; */
+    background-color:orange;
+    width: 89%;
+}
+
+.cssbar{
+    background-color:orange;
+    width: 84%;
+}
+
+.jsbar{
+    background-color:orange;
+    width: 70%;
+}
+
+.reactbar{
+    background-color:orange;
+    width: 90%;
+}
+
+/* conatct  */
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.iconnn{
+    /* border: solid; */
+    /* to make ciricle  */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* padding:15px; */
+    /* or  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+/* icons class  */
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+
+.iconnn:hover{
+    background-image: linear-gradient(to bottom right, red, blue,green);
+}
+       /* to make icon white when mouse pointed  */
+
+/* .brands:hover{
+    color: white;
+} */
+
+/* or   */
+ /* have some difference in looks just try if neededd */
+
+.iconnn:hover .brands{
+    color: white;
+    /* animation  */
+    animation: rotate 3s;
+}
+
+/* defining animation */
+  
+@keyframes rotate{
+   /* % can be given in any pattern there should be a 0% first and 100% last */
+    0%{
+        transform: rotate(30deg);
+    }
+
+    20%{
+        transform: rotate(-30deg);
+    }
+
+    40%{
+        transform: rotate(30deg);
+    }
+
+    60%{
+        transform: rotate(-30deg);
+    }
+
+    80%{
+        transform: rotate(30deg);
+    }
+
+    100%{
+        transform: rotate(-30deg);
+    }
+
+}
+
+/* footer */
+footer{
+    margin-top: 8%;
+}
+
+#copyright{
+    text-align: center;
+    font-weight: 600;
+}
+
+.uparrow{
+    float: right;
+    /* margin-top: -30px; */
+    margin: -35px 20px 0px 0px;
+}
+ /* to make scrollbar smooth */
+html{
+    scroll-behavior: smooth;
+}
+
+/* scrollbar width and radius  */
+::-webkit-scrollbar{
+    /* border: solid; */
+    /* background-color: black; */
+    width: 10px;
+    border-radius: 10px;
+}
+
+/* scrollbar track  */
+::-webkit-scrollbar-track{
+    background-color:azure;
+}
+
+/* scrollbar thump  */
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+/* netlify is used to host  */

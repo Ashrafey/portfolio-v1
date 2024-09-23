@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawsomw link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bungee+Tint&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+     <!-- animate style link  -->
+              <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            /> 
+
+            <!-- aos animation  -->
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- parent container -->
+<div id="container">
+<!-- nav bar -->
+ <nav>
+    <!-- logo -->
+     <img id="logoimg" src="./images/hand-drawn-flat-design-football-logo-template_23-2149373252.avif" alt="no image">
+     <!-- links -->
+      <ul>
+        <li class="list-items"><a href="#home-content" class="list">Home</a></li>
+        <li class="list-items"><a href="#about" class="list">About</a></li>
+        <li class="list-items"><a href="#skill" class="list">Skills</a></li>
+        <li class="list-items"><a href="#contact" class="list">Contact</a></li>
+        
+      </ul>
+ </nav>
+  <section id="secc">
+<!-- home content -->
+    <div class="home-content">
+
+      <!-- animate__animated class name said as anmiate style site . animate__wobble is link copiedd from animestyle-->
+        <!-- anime from theses sites only view when page reloaded  -->
+         <h1 id="username" class="animate__animated animate__wobble">THE <span id="lname">GOATS</span></h1>
+           <p id="user-details">this is my official portfolio website to describe all <br> details and work experience in web development
+             </p>
+             <a id="download" href="./images/hand-drawn-flat-design-football-logo-template_23-2149373252.avif" download=""> DOWNLOAD CV</a>
+    </div>
+    <!-- home image  -->
+     <div class="home-img">
+     <!-- messi-->
+      <img id="messi" class="group1" src="./images/messi-removebg-preview.png" alt="">
+      <!-- ronaldo -->
+      <img id="ronaldo" class="group1" src="./images/ronaldo-removebg-preview (1).png" alt="">
+     </div>
+  </section>
+  
+  <!-- about -->
+   <section id="about">
+    <div class="sectionhead"> 
+      <h2 id="mainhead">About us</h2>
+      <span id="subhead">Indroduction</span>
+    </div>
+    <div class="Aboutbody">
+    <div data-aos="fade-right class="aboutimage">
+      <img  class="image1" src="./images/best_world-removebg-preview.png" alt="nom image">
+    </div>
+    <div class="aboutcontent">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aspernatur perspiciatis mollitia ducimus dignissimos ea minus deleniti a explicabo magnam necessitatibus illo ab omnis id voluptates, cum tempora fugiat inventore. </p>
+      <div class="informations">
+        <div class="infobox">
+          <img class="iconimages" src="./images/call icon.png" alt="">
+          <span>aura</span>
+        </div>
+        <div  class="infobox"><img  class="iconimages"  src="./images/call icon.png" alt="">
+        <span>9999999999</span>
+      </div>
+      <div class="infobox"><img  class="iconimages"  src="./images/location.png" alt="" >
+      <span>aura411@gmail.com</span>
+    </div>
+      </div>
+    </div>
+    </div>
+
+   </section>
+<!-- skill stadium  -->
+ <section id="skill">
+  <div class="sectionhead">
+    <div id="mainhead">STADIUM</div>
+    <span id="subhead">HOME</span>
+  </div>
+ 
+  <div class="skillcontent">
+    <!-- progersss bar  -->
+    <div class="progressbar" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+      <div class="bars">
+          <h3 class="mainhead">HTML</h3>
+          <span class="barpercentage">89%</span>
+        <div class="basebar" ></div>
+        <!-- giving two class name like this  -->
+        <div class="basebar htmlbar"></div>
+      </div>
+
+      <div class="bars">
+          <h3 class="mainhead">CSS</h3>
+          <span class="barpercentage">84%</span>
+        <div class="basebar"></div>
+        <!-- giving two class name like this  -->
+        <div class="basebar cssbar"></div>
+      </div>
+
+      <div class="bars">
+          <h3 class="mainhead">JS</h3>
+          <span class="barpercentage">70%</span>
+        <div class="basebar"></div>
+        <!-- giving two class name like this  -->
+        <div class="basebar jsbar"></div>
+      </div>
+
+      <div class="bars">
+          <h3 class="mainhead">REACT</h3>
+          <span class="barpercentage">92%</span>
+        <div class="basebar"></div>
+        <!-- giving two class name like this  -->
+        <div class="basebar reactbar"></div>
+      </div>
+
+    </div>
+    <div data-aos="fade-right class="skillimage">
+      <img id="skillimg2" src="./images/ground.jpg" alt="" width="100%">
+    </div>
+  </div>
+ </section>
+
+<!-- conatct  -->
+<section id="contact">
+  <div class="sectionhead"> 
+    <h2 id="mainhead">CONTACTS</h2>
+    <span id="subhead">OUR CONTACTS</span>
+  </div>
+  <div class="iconcollection">
+        <!-- linkedin -->
+       <div class="iconnn">
+        <!-- brands is class name  -->
+         <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+        </div>
+        <!-- github -->
+       <div class="iconnn">
+         <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github  brands"></i></a>
+        </div>
+        <!-- twitter -->
+        <div class="iconnn">
+          <a href="https://x.com/?lang=en-in" target="_blank"><i class="fa-brands fa-twitter  brands"></i></a>
+        </div>
+        <!-- facebook -->
+          <div  class="iconnn">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook  brands"></i></a>
+            </div>
+           <!-- instagram -->
+       <div  class="iconnn"> 
+         <a href="https://www.instagram.com/accounts/login/" target="_blank"> <i class="fa-brands fa-instagram  brands"></i></a>
+        </div>
+        <!-- mail -->
+       <div  class="iconnn">
+         <a href="https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0" target="_blank"><i class="fa-solid fa-message  brands"></i></a>
+        </div>
+  </div>
+</section>
+
+<!-- footer  -->
+<footer>
+  <p id="copyright"> &copy;   My portfolio website   -june  2024, All rights reserved to &reg; the goats </p>
+   
+  <!-- uparrow second class name  -->
+  <div class="iconnn uparrow">
+    <a href="#container"><brands class="fa-solid fa-angle-up brands"></i></a>
+   </div>
+
+</footer>
+
+</div>
+</body>
+<!-- netlify is used to host  -->
+ 
+<!-- aos script  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+<script>
+  AOS.init();
+</script>
+
+</html>

@@ -1,0 +1,179 @@
+/* container  */
+#container{
+    /* border: solid; */
+    /* border-color: red; */
+    background-color: grey;
+    background-image: url("./food\ images/bg.jpg");
+}
+
+/* nav bar */
+#navi{
+    /* border: solid; */
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    /* border-color: yellow; */
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+/* fishlogo  */
+#fish{
+    /* border: solid; */
+    padding: 20px;
+   background-color: seagreen;
+}
+
+/* listed items  */
+.listitems{
+    /* border: solid; */
+    display: inline;
+    margin: 0px 45px;
+      
+}
+
+/* listed items id  */
+.ss{
+    color: white;
+    text-decoration:none;
+}
+
+/* cartonly  */
+#cartonly{
+    color: white;
+}
+ /* cart and logo  */
+ #cart{ 
+    text-decoration: none;
+    padding: 20px;
+}
+ /* cartlogo */
+#cartlogo{
+    color:white;
+}
+
+/* section foodgallery and para */
+#foodgallery{
+    /* border: solid; */
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+#fgdiv{
+/* border: solid; */
+text-align: center;
+margin: 100px;
+}
+
+#fg{
+    /* border: solid; */
+    /* font-family: "Anton", sans-serif; */
+    /* font-family: "Protest Guerrilla", sans-serif; */
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#mwl{
+    font-family: "Sofadi One", system-ui;
+    font-size: 30px;
+    color: white;
+
+}
+
+/* section college */
+#college{
+    /* border: solid; */
+    background-color: rgb(157, 56, 56);
+}
+
+/* college div  */
+.imagesdiv{
+    /* border: solid; */
+    /* border-color: violet; */
+    display: grid;
+    /* gap: 1rem; */
+    grid-template-columns: repeat(3,0fr);
+   margin-left: 230px;
+    
+}
+
+/* images  */
+.images{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+/* footer  */
+  #foot{
+    /* border: solid; */
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 150px,0px; */
+  }
+
+  #details{
+   /* border: solid; */
+   /* border-color: blue; */
+   padding: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+  }
+  /* details dev child class  */
+.det{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+/* recent  */
+  #recent{
+    /* border: solid; */
+    /* border-color: red; */
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+    padding: 10px;
+  }
+  /* heading tags  */
+  .re{
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+  }
+
+  /* recent childs */
+  .q{
+    font-weight: 600;
+  }
+
+  #instagram{
+    padding: 10px;
+    color: white;
+  }
+/* div coll  */
+#coll{
+    padding: 10px;
+
+}
+
+  /* images coll instagram  */
+  .hy{
+    width: 60px;
+    height: 50px;
+    
+  }
+
+  /* twitetr feed  */
+  #twitter{
+    padding: 10px;
+    color: white;
+  }
+
+  #para{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+  }
